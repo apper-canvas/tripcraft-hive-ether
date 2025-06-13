@@ -1,0 +1,82 @@
+[
+  {
+    "id": "act_001",
+    "name": "Metropolitan Museum of Art",
+    "type": "attraction",
+    "location": {
+      "name": "Upper East Side",
+      "lat": 40.7794,
+      "lng": -73.9632
+    },
+    "duration": 180,
+    "cost": 30,
+    "description": "One of the world's largest and most prestigious art museums",
+    "rating": 4.8,
+    "category": "museums",
+    "tags": ["art", "history", "culture"]
+  },
+  {
+    "id": "act_002",
+    "name": "Central Park Walking Tour",
+    "type": "activity",
+    "location": {
+      "name": "Central Park",
+      "lat": 40.7829,
+      "lng": -73.9654
+    },
+    "duration": 120,
+    "cost": 25,
+    "description": "Guided walking tour through NYC's most famous park",
+    "rating": 4.6,
+    "category": "outdoor",
+    "tags": ["nature", "walking", "guided-tour"]
+  },
+  {
+    "id": "act_003",
+    "name": "Katz's Delicatessen",
+    "type": "restaurant",
+    "location": {
+      "name": "Lower East Side",
+      "lat": 40.7223,
+      "lng": -73.9876
+    },
+    "duration": 60,
+    "cost": 45,
+    "description": "Iconic NYC deli famous for pastrami sandwiches",
+    "rating": 4.4,
+    "category": "dining",
+    "tags": ["deli", "historic", "local-favorite"]
+  },
+  {
+    "id": "act_004",
+    "name": "Broadway Show - Hamilton",
+    "type": "activity",
+    "location": {
+      "name": "Theater District",
+      "lat": 40.7580,
+      "lng": -73.9855
+    },
+    "duration": 165,
+    "cost": 180,
+    "description": "Award-winning musical about American founding father",
+    "rating": 4.9,
+    "category": "entertainment",
+    "tags": ["theater", "musical", "broadway"]
+  },
+  {
+    "id": "act_005",
+    "name": "Statue of Liberty Ferry",
+    "type": "transport",
+    "location": {
+      "name": "Battery Park",
+      "lat": 40.7033,
+      "lng": -74.0170
+    },
+    "duration": 240,
+    "cost": 25,
+    "description": "Ferry ride to Liberty Island with statue access",
+    "rating": 4.3,
+    "category": "sightseeing",
+    "tags": ["ferry", "landmark", "historical"]
+  }
+]

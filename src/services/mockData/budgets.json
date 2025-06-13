@@ -1,0 +1,32 @@
+[
+  {
+    "id": "budget_001",
+    "tripId": "trip_001",
+    "accommodation": 1200,
+    "transport": 800,
+    "activities": 600,
+    "food": 700,
+    "other": 200,
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "budget_002",
+    "tripId": "trip_002",
+    "accommodation": 1500,
+    "transport": 900,
+    "activities": 800,
+    "food": 800,
+    "other": 200,
+    "createdAt": "2024-02-01T14:20:00Z"
+  },
+  {
+    "id": "budget_003",
+    "tripId": "trip_003",
+    "accommodation": 800,
+    "transport": 600,
+    "activities": 500,
+    "food": 400,
+    "other": 150,
+    "createdAt": "2024-02-10T09:15:00Z"
+  }
+]

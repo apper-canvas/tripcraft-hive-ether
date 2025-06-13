@@ -1,0 +1,138 @@
+[
+  {
+    "id": "itinerary_001",
+    "tripId": "trip_001",
+    "totalCost": 3200,
+    "lastUpdated": "2024-02-15T10:30:00Z",
+    "days": [
+      {
+        "date": "2024-03-15",
+        "activities": [
+          {
+            "id": "activity_001",
+            "name": "Tokyo National Museum",
+            "type": "attraction",
+            "location": {
+              "name": "Ueno Park",
+              "lat": 35.7188,
+              "lng": 139.7767
+            },
+            "duration": 180,
+            "cost": 25,
+            "time": "10:00",
+            "dayIndex": 0,
+            "description": "Explore Japan's largest collection of cultural artifacts"
+          },
+          {
+            "id": "activity_002",
+            "name": "Sushi Jiro",
+            "type": "restaurant",
+            "location": {
+              "name": "Ginza District",
+              "lat": 35.6762,
+              "lng": 139.7629
+            },
+            "duration": 90,
+            "cost": 120,
+            "time": "19:00",
+            "dayIndex": 0,
+            "description": "World-renowned sushi experience"
+          }
+        ],
+        "weather": {
+          "temperature": 18,
+          "condition": "sunny",
+          "humidity": 65
+        }
+      },
+      {
+        "date": "2024-03-16",
+        "activities": [
+          {
+            "id": "activity_003",
+            "name": "Senso-ji Temple",
+            "type": "attraction",
+            "location": {
+              "name": "Asakusa",
+              "lat": 35.7148,
+              "lng": 139.7967
+            },
+            "duration": 120,
+            "cost": 0,
+            "time": "09:00",
+            "dayIndex": 1,
+            "description": "Tokyo's oldest Buddhist temple"
+          },
+          {
+            "id": "activity_004",
+            "name": "TeamLab Borderless",
+            "type": "activity",
+            "location": {
+              "name": "Odaiba",
+              "lat": 35.6273,
+              "lng": 139.7796
+            },
+            "duration": 240,
+            "cost": 50,
+            "time": "14:00",
+            "dayIndex": 1,
+            "description": "Interactive digital art museum"
+          }
+        ],
+        "weather": {
+          "temperature": 20,
+          "condition": "cloudy",
+          "humidity": 70
+        }
+      }
+    ]
+  },
+  {
+    "id": "itinerary_002",
+    "tripId": "trip_002",
+    "totalCost": 3800,
+    "lastUpdated": "2024-02-20T15:45:00Z",
+    "days": [
+      {
+        "date": "2024-05-10",
+        "activities": [
+          {
+            "id": "activity_005",
+            "name": "Louvre Museum",
+            "type": "attraction",
+            "location": {
+              "name": "1st Arrondissement",
+              "lat": 48.8606,
+              "lng": 2.3376
+            },
+            "duration": 240,
+            "cost": 35,
+            "time": "10:00",
+            "dayIndex": 0,
+            "description": "World's largest art museum"
+          },
+          {
+            "id": "activity_006",
+            "name": "Le Jules Verne",
+            "type": "restaurant",
+            "location": {
+              "name": "Eiffel Tower",
+              "lat": 48.8584,
+              "lng": 2.2945
+            },
+            "duration": 120,
+            "cost": 200,
+            "time": "20:00",
+            "dayIndex": 0,
+            "description": "Michelin-starred dining in the Eiffel Tower"
+          }
+        ],
+        "weather": {
+          "temperature": 22,
+          "condition": "partly-cloudy",
+          "humidity": 60
+        }
+      }
+    ]
+  }
+]

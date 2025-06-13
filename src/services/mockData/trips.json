@@ -1,0 +1,54 @@
+[
+  {
+    "id": "trip_001",
+    "name": "Tokyo Adventure",
+    "destination": "Tokyo, Japan",
+    "startDate": "2024-03-15",
+    "endDate": "2024-03-22",
+    "budget": 3500,
+    "interests": ["culture", "food", "technology", "temples"],
+    "travelers": 2,
+    "status": "active",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "image": "/images/tokyo.jpg"
+  },
+  {
+    "id": "trip_002",
+    "name": "Paris Romance",
+    "destination": "Paris, France",
+    "startDate": "2024-05-10",
+    "endDate": "2024-05-17",
+    "budget": 4200,
+    "interests": ["art", "history", "cuisine", "museums"],
+    "travelers": 2,
+    "status": "planning",
+    "createdAt": "2024-02-01T14:20:00Z",
+    "image": "/images/paris.jpg"
+  },
+  {
+    "id": "trip_003",
+    "name": "Bali Retreat",
+    "destination": "Bali, Indonesia",
+    "startDate": "2024-07-05",
+    "endDate": "2024-07-14",
+    "budget": 2800,
+    "interests": ["beaches", "wellness", "nature", "temples"],
+    "travelers": 1,
+    "status": "planning",
+    "createdAt": "2024-02-10T09:15:00Z",
+    "image": "/images/bali.jpg"
+  },
+  {
+    "id": "trip_004",
+    "name": "New York City",
+    "destination": "New York, USA",
+    "startDate": "2024-04-01",
+    "endDate": "2024-04-05",
+    "budget": 2500,
+    "interests": ["theater", "museums", "food", "shopping"],
+    "travelers": 3,
+    "status": "completed",
+    "createdAt": "2024-01-20T16:45:00Z",
+    "image": "/images/nyc.jpg"
+  }
+]
