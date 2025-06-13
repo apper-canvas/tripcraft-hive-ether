@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import Layout from './Layout';
-import { routes } from './config/routes';
+import 'react-toastify/dist/ReactToastify.css';
+import Layout from '@/Layout';
+import { routes } from '@/config/routes';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
               element={<route.component />}
             />
           ))}
-          <Route index element={<routes[0].component />} />
+          <Route index element={routes?.length > 0 ? <routes[0].component /> : <div>Loading...</div>} />
         </Route>
       </Routes>
       
