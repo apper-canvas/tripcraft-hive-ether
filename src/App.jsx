@@ -9,12 +9,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          {routes.map(route => (
+{routes.map(route => (
             <Route
               key={route.id}
               path={route.path}
               element={<route.component />}
-/>
+            />
           ))}
           <Route index element={(() => {
             if (routes?.length > 0) {
@@ -24,7 +24,7 @@ function App() {
             return <div>Loading...</div>;
           })()} />
         </Route>
-      
+      </Routes>
       <ToastContainer
         position="top-right"
         autoClose={3000}
