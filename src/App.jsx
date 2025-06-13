@@ -14,11 +14,16 @@ function App() {
               key={route.id}
               path={route.path}
               element={<route.component />}
-            />
+/>
           ))}
-          <Route index element={routes?.length > 0 ? <routes[0].component /> : <div>Loading...</div>} />
+          <Route index element={(() => {
+            if (routes?.length > 0) {
+              const DefaultComponent = routes[0].component;
+              return <DefaultComponent />;
+            }
+            return <div>Loading...</div>;
+          })()} />
         </Route>
-      </Routes>
       
       <ToastContainer
         position="top-right"
